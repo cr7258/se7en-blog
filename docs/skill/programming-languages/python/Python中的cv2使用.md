@@ -3,7 +3,7 @@ id: python-cv2-usage
 slug: /python-cv2-usage
 title: Python中的cv2使用
 date: 2022-03-06
-authors: kuizuo
+authors: Se7en
 tags: [python]
 keywords: [python]
 ---
@@ -118,7 +118,7 @@ for box in poses:
 cv2.imwrite("result.jpg", img)
 ```
 
-![result](https://img.kuizuo.cn/result.png)
+![result](https://img.Se7en.cn/result.png)
 
 ### 添加文本
 
@@ -127,14 +127,14 @@ import cv2
 
 img = cv2.imread('temp.jpg')
 # 图片对象、文本、像素、字体、字体大小、颜色、字体粗细
-img_text = cv2.putText(img, "kuizuo", (50, 50),
+img_text = cv2.putText(img, "Se7en", (50, 50),
                     cv2.FONT_HERSHEY_DUPLEX, 5.5, (35, 175, 255), 2)
 cv2.imwrite("result.jpg", img_text)
 ```
 
 效果如下
 
-![image-20220306203918438](https://img.kuizuo.cn/image-20220306203918438.png)
+![image-20220306203918438](https://img.Se7en.cn/image-20220306203918438.png)
 
 ### 图片缩放
 

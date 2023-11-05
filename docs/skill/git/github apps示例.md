@@ -3,7 +3,7 @@ id: github-apps-example
 slug: github-apps-example
 title: github apps示例
 date: 2021-10-01
-authors: kuizuo
+authors: Se7en
 tags: [github, app]
 keywords: [github, app]
 ---
@@ -18,11 +18,11 @@ keywords: [github, app]
 
 将 `dependabot.yml` 配置文件放入仓库的 `.github` 目录中即可开启。当然也可以到 `Insights` => `Dependency graph` => `Dependabot` 中开启。如下图
 
-![image-20221001171946879](https://img.kuizuo.cn/image-20221001171946879.png)
+![image-20221001171946879](https://img.Se7en.cn/image-20221001171946879.png)
 
 然后创建你的配置文件，默认内容如下
 
-![image-20221001172149673](https://img.kuizuo.cn/image-20221001172149673.png)
+![image-20221001172149673](https://img.Se7en.cn/image-20221001172149673.png)
 
 其中要修改 package-ecosystem 配置，也就是包管理器，比如node就用npm，python就用pip。可以在 [About Dependabot version updates - GitHub Docs](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates#supported-repositories-and-ecosystems) 中查看。
 

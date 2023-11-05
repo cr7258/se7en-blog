@@ -9,10 +9,10 @@ module.exports = async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
     title: 'Se7en的架构笔记',
-    url: 'https://kuizuo.cn',
+    url: 'https://Se7en.cn',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    organizationName: 'kuizuo',
+    organizationName: 'Se7en',
     projectName: 'blog',
     tagline: '道阻且长，行则将至',
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -24,7 +24,7 @@ module.exports = async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: 'Se7en, kuizuo',
+          content: 'Se7en, Se7en',
         },
         {
           name: 'keywords',
@@ -127,10 +127,10 @@ module.exports = async function createConfigAsync() {
       algolia: {
         appId: 'GV6YN1ODMO',
         apiKey: '50303937b0e4630bec4a20a14e3b7872',
-        indexName: 'kuizuo',
+        indexName: 'Se7en',
       },
       giscus: {
-        repo: 'kuizuo/blog',
+        repo: 'Se7en/blog',
         repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
         category: 'General',
         categoryId: 'DIC_kwDOF7NJDM4CPK95',
@@ -211,7 +211,7 @@ module.exports = async function createConfigAsync() {
         {
           path: 'blog',
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-            `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+            `https://github.com/Se7en/blog/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
           blogDescription: '代码人生：编织技术与生活的博客之旅',
           blogSidebarCount: 10,

@@ -3,7 +3,7 @@ id: go-send-http-request
 slug: /go-send-http-request
 title: Go发送http请求
 date: 2022-05-22
-authors: kuizuo
+authors: Se7en
 tags: [go, http]
 keywords: [go, http]
 ---
@@ -95,7 +95,7 @@ import (
 )
 
 func main() {
-  payload := strings.NewReader(`{"name":"kuizuo"}`)
+  payload := strings.NewReader(`{"name":"Se7en"}`)
 
   req, _ := http.NewRequest("POST", "http://127.0.0.1:5000/api/test", payload)
 
@@ -184,7 +184,7 @@ func main() {
   dm := Demo{
     Session: session,
     User: User{
-      Username: "kuizuo",
+      Username: "Se7en",
       Password: "a123456",
     },
   }

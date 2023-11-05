@@ -33,7 +33,7 @@
   },
   "link.item.label.前端示例": {
     "message": "Frontend Examples",
-    "description": "The label of footer link with label=前端示例 linking to https://example.kuizuo.cn"
+    "description": "The label of footer link with label=前端示例 linking to https://example.Se7en.cn"
   },
   "link.item.label.关于我": {
     "message": "About Me",
@@ -41,7 +41,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/kuizuo"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Se7en"
   },
   "link.item.label.掘金": {
     "message": "Juejin",

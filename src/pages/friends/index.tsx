@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 
 const TITLE = '友链'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friend.ts'
+const ADD_FRIEND_URL = 'https://github.com/Se7en/blog/edit/main/data/friend.ts'
 
 function SiteInfo() {
   return (
@@ -20,7 +20,7 @@ function SiteInfo() {
   // 本站信息
   title: 'Se7en的架构笔记',
   description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  avatar: 'https://Se7en.cn/img/logo.png'
 }`}
       </CodeBlock>
     </div>
