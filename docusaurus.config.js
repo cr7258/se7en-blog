@@ -8,7 +8,7 @@ const announcementBarContent = ''
 module.exports = async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
-    title: '愧怍的小站',
+    title: 'Se7en的架构笔记',
     url: 'https://kuizuo.cn',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
@@ -24,7 +24,7 @@ module.exports = async function createConfigAsync() {
       metadata: [
         {
           name: 'keywords',
-          content: '愧怍, kuizuo',
+          content: 'Se7en, kuizuo',
         },
         {
           name: 'keywords',
@@ -45,13 +45,13 @@ module.exports = async function createConfigAsync() {
           tagName: 'meta',
           attributes: {
             name: 'description',
-            content: '愧怍的个人博客',
+            content: 'Se7en的个人博客',
           },
         },
       ],
       navbar: {
         logo: {
-          alt: '愧怍',
+          alt: 'Se7en',
           src: 'img/logo.webp',
           srcDark: 'img/logo.webp',
         },
@@ -122,7 +122,7 @@ module.exports = async function createConfigAsync() {
             ],
           },
         ],
-        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>`,
+        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT Se7en Built with Docusaurus.</p>`,
       },
       algolia: {
         appId: 'GV6YN1ODMO',
@@ -225,8 +225,8 @@ module.exports = async function createConfigAsync() {
             defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
           feedOptions: {
             type: 'all',
-            title: '愧怍',
-            copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+            title: 'Se7en',
+            copyright: `Copyright © ${new Date().getFullYear()} Se7en Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
           },
         },
       ],

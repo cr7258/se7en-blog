@@ -1,5 +1,5 @@
 <h2 align="center">
-愧怍的个人博客
+Se7en的个人博客
 </h2><br>
 
 <pre align="center">
