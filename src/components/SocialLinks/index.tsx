@@ -26,12 +26,8 @@ export default function SocialLinks({ ...prop }) {
 
   const socials = themeConfig.socials as {
     github: string
-    twitter: string
     juejin: string
     csdn: string
-    qq: string
-    wx: string
-    cloudmusic: string
     zhihu: string
     email: string
   }
@@ -40,15 +36,7 @@ export default function SocialLinks({ ...prop }) {
     <div className={styles.social__links} {...prop}>
       <SocialLink href={socials.github} icon="ri:github-line" />
       <SocialLink href={socials.juejin} icon={<JuejinIcon />} />
-      <SocialLink href={socials.twitter} icon="ri:twitter-line" />
-      <SocialLink href={socials.qq} icon="ri:qq-line" />
       <SocialLink href={socials.zhihu} icon="ri:zhihu-line" />
-      <SocialLink href={socials.email} icon="ri:mail-line" />
-      <SocialLink
-        href={socials.cloudmusic}
-        icon="ri:netease-cloud-music-line"
-      />
-      <SocialLink href="/rss.xml" icon="ri:rss-line" />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { Variants, motion, useScroll, useTransform } from 'framer-motion' // Imp
 
 import Translate from '@docusaurus/Translate'
 
-import HeroMain from './img/hero_main.svg'
+import HeroMain from './img/main.svg'
 
 import styles from './styles.module.scss'
 import SocialLinks from '@site/src/components/SocialLinks'
@@ -40,48 +40,48 @@ function Logos() {
 
   const logos: IconProps[] = [
     {
-      icon: 'logos:vue',
+      icon: 'logos:kubernetes',
       style: { left: '1%', top: '1%' },
     },
     {
-      icon: 'logos:nuxt-icon',
+      icon: 'devicon:argocd',
       style: { left: '4%', top: '5%' },
     },
 
     {
-      icon: 'logos:react',
+      icon: 'logos:linkerd',
       style: { right: '2%', top: '11%' },
     },
     {
-      icon: 'logos:nextjs-icon',
+      icon: 'devicon:wasm',
       style: { right: '8%', top: '14%' },
     },
 
     {
-      icon: 'logos:javascript',
+      icon: 'devicon:envoy',
       style: { top: '5%', left: '52%' },
     },
     {
-      icon: 'logos:typescript-icon',
+      icon: 'logos:kong-icon',
       style: { top: '9%', left: '58%' },
     },
 
     {
-      icon: 'logos:nodejs-icon-alt',
+      icon: 'logos:elasticsearch',
       style: { top: '15%', left: '30%' },
     },
     {
-      icon: 'logos:nestjs',
+      icon: 'logos:kibana',
       style: { top: '20%', left: '38%' },
     },
 
     {
-      icon: 'logos:tailwindcss-icon',
+      icon: 'logos:opensearch-icon',
       style: { top: '30%', left: '70%' },
     },
 
     {
-      icon: 'logos:visual-studio-code',
+      icon: 'devicon:nomad',
       style: { bottom: '25%', right: '5%' },
     },
     {

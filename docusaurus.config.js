@@ -1,7 +1,7 @@
 // @ts-check
 
 const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const beian = ''
 
 const announcementBarContent = ''
 
@@ -63,16 +63,19 @@ module.exports = async function createConfigAsync() {
             to: 'blog',
           },
           {
-            label: '项目',
+            label: '笔记',
             position: 'right',
-            to: 'project',
+            to: 'docs/skill',
+          },
+          {
+            label: '归档',
+            position: 'right',
+            to: 'blog/archive',
           },
           {
             label: '更多',
             position: 'right',
             items: [
-              { label: '归档', to: 'blog/archive' },
-              { label: '笔记', to: 'docs/skill' },
               { label: '资源', to: 'resource' },
               { label: '友链', to: 'friends' },
               { label: '工具推荐', to: 'docs/tools' },
@@ -94,20 +97,17 @@ module.exports = async function createConfigAsync() {
               { label: '归档', to: 'blog/archive' },
               { label: '技术笔记', to: 'docs/skill' },
               { label: '实战项目', to: 'project' },
-              { label: '前端示例', to: 'https://example.kuizuo.cn' },
             ],
           },
           {
             title: '社交媒体',
             items: [
               { label: '关于我', to: '/about' },
-              { label: 'GitHub', href: 'https://github.com/kuizuo' },
-              { label: 'Twitter', href: 'https://twitter.com/kuizuo' },
+              { label: 'GitHub', href: 'https://github.com/cr7258' },
               {
-                label: '掘金',
-                href: 'https://juejin.cn/user/1565318510545901',
+                label: 'CSDN',
+                href: 'https://blog.csdn.net/cr7258',
               },
-              { label: 'Discord', href: 'https://discord.gg/M8cVcjDxkz' },
             ],
           },
           {
@@ -122,7 +122,7 @@ module.exports = async function createConfigAsync() {
             ],
           },
         ],
-        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT Se7en Built with Docusaurus.</p>`,
+        copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2023 - PRESENT Se7en Built with Docusaurus.</p>`,
       },
       algolia: {
         appId: 'GV6YN1ODMO',
@@ -138,14 +138,11 @@ module.exports = async function createConfigAsync() {
         darkTheme: 'dark',
       },
       socials: {
-        github: 'https://github.com/kuizuo',
-        twitter: 'https://twitter.com/kuizuo',
-        juejin: 'https://juejin.cn/user/1565318510545901',
-        csdn: 'https://blog.csdn.net/kuizuo12',
-        qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-        zhihu: 'https://www.zhihu.com/people/kuizuo',
-        cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
-        email: 'mailto:hi@kuizuo.cn',
+        github: 'https://github.com/cr7258',
+        juejin: 'https://juejin.cn/user/1028798616450734',
+        zhihu: 'https://www.zhihu.com/people/cheng-zhi-wei-67-19/posts',
+        csdn: 'https://blog.csdn.net/cr7258',
+        email: 'chengzw258@163.com',
       },
       prism: {
         theme: require('prism-react-renderer/themes/vsLight'),
