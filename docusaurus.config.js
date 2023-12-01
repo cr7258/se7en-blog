@@ -76,6 +76,7 @@ module.exports = async function createConfigAsync() {
             label: '更多',
             position: 'right',
             items: [
+              { label: '开源项目', to: 'opensource' },
               { label: '资源', to: 'resource' },
               { label: '友链', to: 'friends' },
               { label: '工具推荐', to: 'docs/tools' },
@@ -113,9 +114,9 @@ module.exports = async function createConfigAsync() {
           {
             title: '更多',
             items: [
+              { label: '开源项目', position: 'right', to: 'opensource' },
               { label: '友链', position: 'right', to: 'friends' },
-              { label: '导航', position: 'right', to: 'resource' },
-              // { label: '我的站点', position: 'right', to: 'website' },
+              { label: '资源', position: 'right', to: 'resource' },
               {
                 html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
               },
@@ -130,10 +131,10 @@ module.exports = async function createConfigAsync() {
         indexName: 'Se7en',
       },
       giscus: {
-        repo: 'Se7en/blog',
-        repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+        repo: 'cr7258/se7en-blog',
+        repoId: 'R_kgDOKpZmkg',
         category: 'General',
-        categoryId: 'DIC_kwDOF7NJDM4CPK95',
+        categoryId: 'DIC_kwDOKpZmks4CbbWF',
         theme: 'light',
         darkTheme: 'dark',
       },
