@@ -34,4 +34,15 @@ export const openSourceData: OpenSourceCategory[] = [
       },
     ],
   },
+  {
+    name: 'Observability',
+    opensources: [
+      {
+        name: 'Odigos',
+        desc: '分布式跟踪，无需更改代码。 🚀 使用 OpenTelemetry 和 eBPF 即时监控任何应用程序。',
+        logo: '/img/opensource/observability/odigos.png',
+        href: 'https://odigos.io/',
+      },
+    ],
+  },
 ]
