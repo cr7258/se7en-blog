@@ -45,4 +45,21 @@ export const openSourceData: OpenSourceCategory[] = [
       },
     ],
   },
+  {
+    name: '远程开发',
+    opensources: [
+      {
+        name: 'DevPod',
+        desc: 'Codespaces 的开源版本，可以在 Docker，Kubernetes，公有环境中创建可以重写的开发环境，支持任何 IDE。',
+        logo: '/img/opensource/remote-develop/devpod.png',
+        href: 'https://devpod.sh/',
+      },
+      {
+        name: 'Development Containers',
+        desc: '允许你使用容器作为功能齐全的开发环境，它可用于运行应用程序，分离使用代码库所需的工具、库或运行时，以及帮助进行持续集成和测试。DevPod 是基于 Development Containers 创建的。',
+        logo: '/img/opensource/remote-develop/devcontainers.png',
+        href: 'https://containers.dev/',
+      },
+    ],
+  },
 ]
